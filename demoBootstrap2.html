@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo2</title>
+    <!-- link bootrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style2.css">
+</head>
+
+<body>
+    <!-- menu header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="image/VTCA_White_Logo.png" alt="" height="40" width="auto"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+
+                    <div class="mini-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+                            <g>
+                                <path id="path1"
+                                    transform="rotate(0,24,24) translate(11,15.2741569876671) scale(0.8125,0.8125)  "
+                                    fill="#FFFFFF"
+                                    d="M22.154999,0C24.042999,-1.7628554E-07 25.749008,0.65798962 26.947006,1.7119909 28.442001,1.4689947 29.848007,1.0179904 31.115997,0.39599609 30.626007,1.662995 29.585007,2.724992 28.229004,3.3959822 29.557007,3.2650008 30.822998,2.9739849 32,2.5419931 31.119995,3.6299912 30.007004,4.5850088 28.723999,5.3489863 28.737,5.581988 28.742996,5.8159968 28.742996,6.0510127 28.742996,13.215994 22.139008,21.478999 10.063995,21.478999 6.3560028,21.478999 2.9059982,20.581018 0,19.042016 0.51399994,19.092004 1.0370026,19.118005 1.5660019,19.118005 4.6419983,19.118005 7.4729996,18.251001 9.7189941,16.796991 6.8470001,16.753015 4.4220047,15.184989 3.586998,13.030996 3.987999,13.094992 4.3990021,13.128988 4.8219986,13.128988 5.4209976,13.128988 6.0009995,13.062002 6.5510025,12.938009 3.5480042,12.439993 1.2850037,10.249013 1.2850037,7.6219975 1.2850037,7.5989873 1.2850037,7.5760075 1.2860031,7.5540044 2.1709976,7.9600102 3.1839981,8.2029917 4.2600021,8.2320139 2.4980011,7.2589909 1.3390045,5.5999934 1.3390045,3.7180037 1.3390045,2.724992 1.663002,1.7929999 2.2280045,0.99299669 5.4660034,4.2729971 10.302994,6.4309875 15.759995,6.6580078 15.647995,6.2610046 15.589996,5.8470027 15.589996,5.4219844 15.589996,2.4279947 18.529007,-1.7628554E-07 22.154999,0z" />
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+                            <g>
+                                <path id="path1"
+                                    transform="rotate(0,24,24) translate(11,11.0004060268402) scale(0.8125,0.8125)  "
+                                    fill="#FFFFFF"
+                                    d="M10.70697,21.429998C10.953003,21.429998 11.075989,21.429998 11.271973,21.453009 13.127014,22.753012 13.932007,23.401998 13.932007,24.632009 13.932007,26.125006 12.687988,27.238012 10.339966,27.238012 7.7260132,27.238012 6.0410156,26.007009 6.0410156,24.297003 6.0410156,22.586004 7.6010132,22.009008 8.1409912,21.815008 9.1679688,21.476004 10.487,21.429998 10.70697,21.429998z M22.130981,14.769001L22.130981,18.450001 18.461975,18.450001 18.461975,20.960012 22.130981,20.960012 22.130981,24.615011 24.620972,24.615011 24.620972,20.960012 28.307983,20.960012 28.307983,18.450001 24.620972,18.450001 24.620972,14.769001z M9.5100098,10.679996C11.537964,10.679996 12.588013,13.378009 12.588013,15.118 12.588013,15.547001 12.539001,16.315998 11.981018,16.871998 11.586975,17.257008 10.930969,17.550007 10.315002,17.550007 8.21698,17.550007 7.2559814,14.871998 7.2559814,13.257007 7.2559814,12.632007 7.3829956,11.979999 7.7969971,11.479999 8.190979,10.992007 8.875,10.679996 9.5100098,10.679996z M11.049011,9.8690061C9.7319946,9.8690061 8.065979,10.069003 6.6779785,11.205005 5.6229858,12.091006 5.1069946,13.325 5.1069946,14.435001 5.1069946,16.315006 6.5789795,18.222004 9.1679688,18.222004 9.4129639,18.222004 9.6809692,18.19701 9.9539795,18.174 9.8289795,18.466007 9.7059937,18.709003 9.7059937,19.11301 9.7059937,19.863012 10.096008,20.319006 10.440002,20.750006 9.3380127,20.825003 7.2849731,20.947012 5.7749634,21.860998 4.3289795,22.705999 3.8880005,23.937002 3.8880005,24.802008 3.8880005,26.586004 5.5969849,28.247002 9.1409912,28.247002 13.343994,28.247002 15.56897,25.957998 15.56897,23.692999 15.56897,22.034002 14.593994,21.211004 13.518982,20.319006L12.640991,19.643009C12.370972,19.429996 12,19.138004 12,18.608997 12,18.082005 12.370972,17.740009 12.687988,17.425007 13.714966,16.634006 14.742981,15.746998 14.742981,13.965 14.742981,12.132007 13.565002,11.205005 13.003967,10.668002L14.518005,10.668002 16.083984,9.8690061z M0,7.3840046L32,7.3840046 32,25.730001C32,29.17701,29.177979,31.999001,25.729004,31.999001L6.2719727,31.999001C2.822998,31.999001,0,29.17701,0,25.730001z M6.2719727,0L25.729004,0C29.086975,2.0349034E-08,31.828979,2.6799934,31.971985,6.0000014L0.028015137,6.0000014C0.17199707,2.6799934,2.9140015,2.0349034E-08,6.2719727,0z" />
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+                            <g>
+                                <path id="path1"
+                                    transform="rotate(0,24,24) translate(11.1417816281319,11) scale(0.8125,0.8125)  "
+                                    fill="#FFFFFF"
+                                    d="M1.6459961,0L30.005003,0C30.913999,0,31.650999,0.81900024,31.650999,1.8289948L31.650999,30.170998C31.650999,31.181999,30.913999,32,30.005003,32L21.817991,32 21.817991,18.851997 25.751982,18.851997 25.751982,14.581001 21.817991,14.581001 21.817991,13.150002C21.817991,12.110001,22.645994,11.266998,23.670988,11.266998L25.751982,11.266998 25.751982,6.9980011 21.246977,6.9980011C18.509979,6.9980011,16.291992,9.2490005,16.291992,12.027L16.291992,14.581001 12.742003,14.581001 12.742003,18.851997 16.291992,18.851997 16.291992,32 1.6459961,32C0.73699956,32,7.5509888E-08,31.181999,0,30.170998L0,1.8289948C7.5509888E-08,0.81900024,0.73699956,0,1.6459961,0z" />
+                            </g>
+                        </svg>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end menu header -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-collapse bg-collapse">
+        <div class="container">
+            <div class="footer-menu">
+                <h5>HOME/</h5>
+            </div>
+        </div>
+    </nav> -->
+    <!-- <h5 class="home-sticky">ahii</h5> -->
+    <!-- slide -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/wallpaper-4k-hinh-nen-4k-binh-minh-tren-nui_101300409.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/wallpaper-4k-hinh-nen-4k-cay-cau-go-ven-bien-dep_101302561.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/wallpaper-4k-hinh-nen-4k-thiet-ke-cuc-dep_101257772.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- end silde -->
+    <!-- show product -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="product-group">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product md-3">
+                            <img src="http://via.placeholder.com/280x280" class="card-img-top" alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">TITLE 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product md-3">
+                            <img src="http://via.placeholder.com/280x280" class="card-img-top" alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">TITLE 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product md-3">
+                            <img src="http://via.placeholder.com/280x280" class="card-img-top" alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">TITLE 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product md-3">
+                            <img src="http://via.placeholder.com/280x280" class="card-img-top" alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">TITLE 4</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end show product -->
+    <!--menu footer -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="mini-logo-footer">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+                    <g>
+                        <path id="path1"
+                            transform="rotate(0,24,24) translate(11,15.2741569876671) scale(0.8125,0.8125)  "
+                            fill="#FFFFFF"
+                            d="M22.154999,0C24.042999,-1.7628554E-07 25.749008,0.65798962 26.947006,1.7119909 28.442001,1.4689947 29.848007,1.0179904 31.115997,0.39599609 30.626007,1.662995 29.585007,2.724992 28.229004,3.3959822 29.557007,3.2650008 30.822998,2.9739849 32,2.5419931 31.119995,3.6299912 30.007004,4.5850088 28.723999,5.3489863 28.737,5.581988 28.742996,5.8159968 28.742996,6.0510127 28.742996,13.215994 22.139008,21.478999 10.063995,21.478999 6.3560028,21.478999 2.9059982,20.581018 0,19.042016 0.51399994,19.092004 1.0370026,19.118005 1.5660019,19.118005 4.6419983,19.118005 7.4729996,18.251001 9.7189941,16.796991 6.8470001,16.753015 4.4220047,15.184989 3.586998,13.030996 3.987999,13.094992 4.3990021,13.128988 4.8219986,13.128988 5.4209976,13.128988 6.0009995,13.062002 6.5510025,12.938009 3.5480042,12.439993 1.2850037,10.249013 1.2850037,7.6219975 1.2850037,7.5989873 1.2850037,7.5760075 1.2860031,7.5540044 2.1709976,7.9600102 3.1839981,8.2029917 4.2600021,8.2320139 2.4980011,7.2589909 1.3390045,5.5999934 1.3390045,3.7180037 1.3390045,2.724992 1.663002,1.7929999 2.2280045,0.99299669 5.4660034,4.2729971 10.302994,6.4309875 15.759995,6.6580078 15.647995,6.2610046 15.589996,5.8470027 15.589996,5.4219844 15.589996,2.4279947 18.529007,-1.7628554E-07 22.154999,0z" />
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+                    <g>
+                        <path id="path1"
+                            transform="rotate(0,24,24) translate(11,11.0004060268402) scale(0.8125,0.8125)  "
+                            fill="#FFFFFF"
+                            d="M10.70697,21.429998C10.953003,21.429998 11.075989,21.429998 11.271973,21.453009 13.127014,22.753012 13.932007,23.401998 13.932007,24.632009 13.932007,26.125006 12.687988,27.238012 10.339966,27.238012 7.7260132,27.238012 6.0410156,26.007009 6.0410156,24.297003 6.0410156,22.586004 7.6010132,22.009008 8.1409912,21.815008 9.1679688,21.476004 10.487,21.429998 10.70697,21.429998z M22.130981,14.769001L22.130981,18.450001 18.461975,18.450001 18.461975,20.960012 22.130981,20.960012 22.130981,24.615011 24.620972,24.615011 24.620972,20.960012 28.307983,20.960012 28.307983,18.450001 24.620972,18.450001 24.620972,14.769001z M9.5100098,10.679996C11.537964,10.679996 12.588013,13.378009 12.588013,15.118 12.588013,15.547001 12.539001,16.315998 11.981018,16.871998 11.586975,17.257008 10.930969,17.550007 10.315002,17.550007 8.21698,17.550007 7.2559814,14.871998 7.2559814,13.257007 7.2559814,12.632007 7.3829956,11.979999 7.7969971,11.479999 8.190979,10.992007 8.875,10.679996 9.5100098,10.679996z M11.049011,9.8690061C9.7319946,9.8690061 8.065979,10.069003 6.6779785,11.205005 5.6229858,12.091006 5.1069946,13.325 5.1069946,14.435001 5.1069946,16.315006 6.5789795,18.222004 9.1679688,18.222004 9.4129639,18.222004 9.6809692,18.19701 9.9539795,18.174 9.8289795,18.466007 9.7059937,18.709003 9.7059937,19.11301 9.7059937,19.863012 10.096008,20.319006 10.440002,20.750006 9.3380127,20.825003 7.2849731,20.947012 5.7749634,21.860998 4.3289795,22.705999 3.8880005,23.937002 3.8880005,24.802008 3.8880005,26.586004 5.5969849,28.247002 9.1409912,28.247002 13.343994,28.247002 15.56897,25.957998 15.56897,23.692999 15.56897,22.034002 14.593994,21.211004 13.518982,20.319006L12.640991,19.643009C12.370972,19.429996 12,19.138004 12,18.608997 12,18.082005 12.370972,17.740009 12.687988,17.425007 13.714966,16.634006 14.742981,15.746998 14.742981,13.965 14.742981,12.132007 13.565002,11.205005 13.003967,10.668002L14.518005,10.668002 16.083984,9.8690061z M0,7.3840046L32,7.3840046 32,25.730001C32,29.17701,29.177979,31.999001,25.729004,31.999001L6.2719727,31.999001C2.822998,31.999001,0,29.17701,0,25.730001z M6.2719727,0L25.729004,0C29.086975,2.0349034E-08,31.828979,2.6799934,31.971985,6.0000014L0.028015137,6.0000014C0.17199707,2.6799934,2.9140015,2.0349034E-08,6.2719727,0z" />
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+                    <g>
+                        <path id="path1"
+                            transform="rotate(0,24,24) translate(11.1417816281319,11) scale(0.8125,0.8125)  "
+                            fill="#FFFFFF"
+                            d="M1.6459961,0L30.005003,0C30.913999,0,31.650999,0.81900024,31.650999,1.8289948L31.650999,30.170998C31.650999,31.181999,30.913999,32,30.005003,32L21.817991,32 21.817991,18.851997 25.751982,18.851997 25.751982,14.581001 21.817991,14.581001 21.817991,13.150002C21.817991,12.110001,22.645994,11.266998,23.670988,11.266998L25.751982,11.266998 25.751982,6.9980011 21.246977,6.9980011C18.509979,6.9980011,16.291992,9.2490005,16.291992,12.027L16.291992,14.581001 12.742003,14.581001 12.742003,18.851997 16.291992,18.851997 16.291992,32 1.6459961,32C0.73699956,32,7.5509888E-08,31.181999,0,30.170998L0,1.8289948C7.5509888E-08,0.81900024,0.73699956,0,1.6459961,0z" />
+                    </g>
+                </svg>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+
+                <div class="info">
+                    <h5>+4475 000 0000</h5>
+                    <h5>0800 000 0000</h5>
+                    <h5>duynd.nde17023@vtc.edu.vn</h5>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end menu footer -->
+</body>
+
+</html>
